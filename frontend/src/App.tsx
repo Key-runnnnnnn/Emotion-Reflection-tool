@@ -56,7 +56,7 @@ function App() {
     setError(null);
     setResult(null);
     try {
-      const response = await fetch('https://emotion-reflection-tool-ntpz.onrender.com/analyze', {
+      const response = await fetch('https://emotion-reflection-back-1.onrender.com/analyze', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({ text }),
